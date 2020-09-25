@@ -45,9 +45,6 @@ function setUsers(users) {
   _users = users;
 }
 
-console.log(getSubordinates(1));
-console.log(getSubordinates(3));
-
 module.exports = {
   getSubordinates,
   setRoles,
