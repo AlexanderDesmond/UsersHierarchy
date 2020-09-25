@@ -1,4 +1,3 @@
-//import { roles, users } from "./data.js";
 const { roles, users } = require("./data");
 
 // Code
