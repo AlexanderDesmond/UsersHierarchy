@@ -2,7 +2,9 @@
 
 Input for the program is stored in two variables in data.js, _roles_ and _users_. To swap the input data, just change those two variables.
 
-When you change the input data, remember to change the _expectedOutput_ variable for the tests in index.test.js, otherwise Jest will be comparing for the old input data and the tests will fail. You may also need to update the parameter in the _getSubordinates()_ call in the tests if the user ids have changed, or you wish to test for new user ids.
+When you change the input data, remember to update the _expectedOutput_ variables for the tests in index.test.js; otherwise, Jest will be comparing for the old input data and the tests will fail.
+
+You may also need to update the parameter in the _getSubordinates()_ calls in the tests if the user ids have changed, or you wish to test for new user ids.
 
 ## Instructions
 
