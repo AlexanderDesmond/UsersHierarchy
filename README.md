@@ -22,11 +22,13 @@ Install the dependencies with the command:
 
 ### How to Run the Program
 
-If you want to run the program on your computer, use:
+If you want to run the program from the terminal, use:
 
 `node index.js`
 
-Nothing should happen, as the _getSubordinates()_ method just returns the subordinates and nothing is logged to the console. To see what the output is (and compare it against the expected output) we can use unit tests.
+Nothing should happen, as the _getSubordinates()_ method just returns the subordinates and nothing is logged to the console. To see if the code is working we can use unit tests.
+
+There is currently a unit test for every user id from the sample input data. If the input data is changed, the unit tests may also need to be changed.
 
 To run the test suite, use:
 
