@@ -26,6 +26,8 @@ If you want to run the program on your computer, use:
 
 `node index.js`
 
+Nothing should happen, as the _getSubordinates()_ method just returns the subordinates and nothing is logged to the console. To see what the output is (and compare it against the expected output) we can use unit tests.
+
 To run the test suite, use:
 
 `npm test`
